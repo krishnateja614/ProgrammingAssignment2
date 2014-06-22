@@ -1,7 +1,3 @@
-## Put comments here that give an overall description of what your
-## functions do
-
- 
 # Caching function for a matrix,which returns a vector of get(x) and set(m) 
 # for the matrix itself, as well as  the matrix inverse calculation.
 
@@ -18,10 +14,9 @@ makeCacheMatrix <- function(x = matrix()) {
 
 }
 
-
 #Calculates the inverse of a given square matrix, or will retreive a previously
-# calculated inverse through cache function defined above,given a list argument
-# from the same
+#calculated inverse through cache function defined above,given a list argument
+#from the same
 
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
